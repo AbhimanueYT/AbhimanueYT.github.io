@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { Cube } from '../components/Cube';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { Cube } from '../components/Cube.ts';
 
 export class Scene {
   private scene: THREE.Scene;
