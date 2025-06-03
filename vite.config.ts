@@ -3,5 +3,5 @@ import glsl from 'vite-plugin-glsl';
 
 export default defineConfig({
   plugins: [glsl()],
-  base: '/AbhimanueYT/', // for GitHub Pages
+  base: '/AbhimanueYT.github.io/', // for GitHub Pages
 }); 
